@@ -13,7 +13,7 @@ Example Code
 	
 	let middelburg = OV9292API.stationsForQuery(query: "Middelburg").first!
 	
-	OV9292API.journeysForTransportationTypes([.Bus, .Train, .Subway, .Tram, .Ferry], from: groningen, to: middelburg, departure: NSDate())
+	OV9292API.journeysForTransportationTypes([.bus, .train, .subway, .tram, .ferry], from: groningen, to: middelburg, departure: NSDate())
 
 
 License
